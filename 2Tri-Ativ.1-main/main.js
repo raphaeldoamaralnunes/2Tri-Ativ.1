@@ -7,40 +7,73 @@ var perguntas = [
     {
         enunciado: "A IA pode automatizar tarefas repetitivas.",
         alternativas: [    
-            "Vai eliminar tarefas monotonas",
-            "Vai tirar muitos empregos"
+            {
+                texto: "Vai eliminar tarefas monotonas",
+                afirmacao: ""
+
+            },
+            {
+                texto: "Vai tirar muitos empregos",
+                afirmacao: ""
+
+            }
         ]
     },
     {
         enunciado: "A IA pode tomar decisões baseadas em dados.",
         alternativas: [
-            "Maravilhoso",
-            "Assustador"
+            {
+                texto: "Maravilhoso",
+                afirmacao: ""
+            },
+            {
+                texto: "Assustador",
+                afirmacao: ""
+            }
+            
         ]
     },
     {
         enunciado: "A IA pode substituir certos empregos.",
         alternativas: [
-            "Não vejo problemas",
-            "É o fim dos empregos como conhecemos hoje"
+            {
+                texto: "Não vejo problemas",
+                afirmacao: ""
+            },
+            {
+                texto: "É o fim dos empregos como conhecemos hoje",
+                afirmacao: ""
+            }
         ]
     },
     {
         enunciado: "A IA pode ajudar a prever tendências de mercado.",
         alternativas: [
-           
-            "Incrível",
-            "Sinistro"
+            {
+                texto: "Incrível",
+                afirmacao: ""
+            },
+            {
+                texto: "Sinistro",
+                afirmacao: ""
+            }
         ]
     },
     {
         enunciado: "A IA pode trabalhar 24/7 sem pausas.",
         alternativas: [
-            "Surpreendente",
-            "Mão de obra barata"
+            {
+                texto: "Surpreendente",
+                afirmacao: ""
+            },
+            {
+                texto: "Mão de obra barata",
+                afirmacao: ""
+            }
         ]
     }
 ];
+
 
 var posiçãoAtual = 0;
 var perguntaAtual;
