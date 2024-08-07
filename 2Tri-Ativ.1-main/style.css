@@ -1,9 +1,9 @@
-:root{
+:root {
     --cor-fundo: #01080E;
-    --cor-principal: #0b0D20;
+    --cor-principal: #0B0D20;
     --cor-secundaria: #212333;
     --cor-destaque: #2BDEFD;
-    --cor-texto: #d7f9ff;
+    --cor-texto: #D7F9FF;
 }
 
 body{
@@ -21,7 +21,6 @@ body{
     text-align: center;
     padding: 20px;
 }
-
 h1{
     color: var(--cor-destaque);
 }
