@@ -4,6 +4,7 @@
     --cor-secundaria: #212333;
     --cor-destaque: #2BDEFD;
     --cor-texto: #D7F9FF;
+
 }
 
 body{
@@ -18,9 +19,25 @@ body{
 .cx-principal{
     background-color: var(--cor-principal);
     width: 90%;
+    max-width: 600px;
     text-align: center;
     padding: 20px;
 }
 h1{
     color: var(--cor-destaque);
+}
+
+button{
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+    border: none;
+    transition: 1s;
+}
+
+button:hover{
+    background-color: var(--cor-destaque);
+    color: black;
+    border-radius: none;
+    border-radius: 15px;
+    padding: 15px;
 }
